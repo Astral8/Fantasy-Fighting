@@ -1,4 +1,4 @@
-permalink: https://github.com/Astral8/Fantasy-Fighting/blob/f8e0aee7c92b9f2ffa2379f3c1ddebcd47cd105f/Game/index.html
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Astral8/Fantasy-Fighting/edit/master/README.md) to maintain and preview the content for your website in Markdown files.

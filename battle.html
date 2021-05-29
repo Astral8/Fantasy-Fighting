@@ -1,0 +1,66 @@
+<html>
+
+<title>
+Fantasy Fighters Home &#8482;
+</title>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <script type = "text/javascript" src = "Game/Fight.js"></script>
+</head>
+
+<h1>
+Fantasy Fighters &#8482;
+</br>
+</h1>
+
+
+<hr>
+
+<nav id="primary_nav_wrap">
+<ul>
+  <li><a href="https://astral8.github.io/Fantasy-Fighting/index.html">Home</a></li>
+      <li><a href="battle.html">Battle!</a>
+</li>
+</ul>
+</nav>
+
+
+</br>
+</br>
+<hr>
+
+<div class="game">
+  <div class="opponent">
+    <div class="stats">
+      <div id = "opponentHP" class="hp-count">100</div>
+      <span class="name">
+        Rand Al'Thor
+      </span>
+    </div>
+      <img class="fantasy" src="../Game/Rand.jpg" alt ="Rand Al Thor" />
+    </div>
+  <div class="mainPlayer">
+      <div class="stats">
+        <div id = "mainPlayerHP" class="hp-count">100</div>
+        <span class="name">
+          Jon Snow
+        </span>
+      </div>
+        <img class="fantasy" src="../Game/Jon.jpg" alt ="Jon Snow" />
+      </div>
+</div>
+<div class="box">
+        <div id = "message" class="message">
+          What should Jon do?
+        </div>
+        <div class="actions">
+          <button onclick = "sword()">Sword</button>
+          <button onclick = "wolfAttack()">Wolf Attack</button>
+          <button onclick = "punch()">Punch</button>
+          <button onclick = "shootArrow()">Shoot Arrow</button>
+        </div>
+        <div class = "continue">
+          <button onclick = "compFantasy()">Continue</button>
+        </div>
+      </div>
